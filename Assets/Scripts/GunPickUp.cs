@@ -24,6 +24,7 @@ public class GunPickUp : MonoBehaviour
     {
         if (other.gameObject.tag == "Reach")
         {
+            Debug.Log("reached");
             inReach = true;
             pickUpText.SetActive(true);
         }
